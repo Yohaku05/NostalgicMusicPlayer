@@ -19,8 +19,8 @@ jobs:
       - name: Build archive
         run: |
           xcodebuild \
-            -project "NostalgicMusicPlayer.xcworkspace" \
-            -scheme "NostalgicMusicPlayer" \
+            -project "Nostalgic Music Player.xcworkspace" \
+            -scheme "Nostalgic Music Player" \
             -sdk iphoneos \
             -configuration Release \
             -archivePath build/App.xcarchive \
