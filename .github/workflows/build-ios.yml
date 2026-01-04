@@ -29,6 +29,7 @@ jobs:
             -archivePath build/App.xcarchive \
             archive \
             CODE_SIGNING_ALLOWED=NO
+            SWIFT_VERSION=5.0
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
