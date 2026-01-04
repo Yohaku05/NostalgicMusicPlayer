@@ -30,6 +30,7 @@ jobs:
             archive \
             CODE_SIGNING_ALLOWED=NO
             SWIFT_VERSION=5.0
+            OTHER_SWIFT_FLAGS="-Xfrontend -disable-availability-checking"
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
